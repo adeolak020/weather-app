@@ -1,0 +1,48 @@
+body {
+  background-image: url("../images/cloudy-sky.jpg");
+  background-size: cover;
+}
+
+h2 {
+  text-align: center;
+  font-size: 58px;
+}
+
+p {
+  font-size: 11px;
+}
+
+small {
+  font-size: 10px;
+  padding-top: 0;
+}
+
+i {
+  cursor: pointer;
+}
+
+button {
+  background: #ffffff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 8px auto;
+  padding: 20px 30px;
+}
+
+.forecast {
+  font-size: 28px;
+}
+
+.search-icon {
+  border: #ffffff;
+}
+
+.btn-outline-secondary {
+  border-radius: 3px;
+}
+.card {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
