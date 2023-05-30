@@ -29,6 +29,7 @@
                     class="form-control"
                     placeholder="SEARCH"
                     id="city-input"
+                    autocomplete="off"
                   />
                   <div class="input-group-append">
                     <button
@@ -43,10 +44,14 @@
               </form>
               <br />
               <h1 id="city">Lagos</h1>
-              <p id="date">Satuday 1:45pm</p>
+              <span id="date" class="celsius"></span>
+              <ul>
+                <li id="description"></li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> mph</li>
+              </ul>
               <br />
-              <br />
-              <h2><span id="current-temp">74</span>°C</h2>
+              <h2><span id="current-temp"></span>°C</h2>
               <hr />
               <div class="container text-center">
                 <div class="row justify-content-center">
