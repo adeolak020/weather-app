@@ -17,7 +17,8 @@ li {
 img {
   display: block;
   float: left;
-  height: 60px;
+  margin: 0;
+  padding: 0;
 }
 
 small {
@@ -58,8 +59,8 @@ button {
 .degrees {
   text-align: center;
   font-size: 58px;
-  padding-left: 50px;
   font-weight: 500;
+  padding-left: 15px;
 }
 
 .week {
