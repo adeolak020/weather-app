@@ -3,10 +3,6 @@ body {
   background-size: cover;
 }
 
-h2 {
-  text-align: center;
-  font-size: 58px;
-}
 ul {
   margin: 0;
   padding: 0;
@@ -16,6 +12,12 @@ li {
   list-style: none;
   font-size: 11px;
   text-transform: capitalize;
+}
+
+img {
+  display: block;
+  float: left;
+  height: 60px;
 }
 
 small {
@@ -53,6 +55,18 @@ button {
   color: #fff;
 }
 
-.celsius {
+.degrees {
+  text-align: center;
+  font-size: 58px;
+  padding-left: 50px;
+  font-weight: 500;
+}
+
+.week {
   font-size: 11px;
+}
+
+.celsius {
+  font-size: 58px;
+  font-weight: 500;
 }
