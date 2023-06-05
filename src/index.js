@@ -45,6 +45,84 @@ function showTemperature(response) {
   iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  forecastElement.innerHTML = `            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <div class="container text-center">
+                    <div class="row justify-content-start">
+                      <div class="col-4">
+                        <small
+                          >MON <br />
+                          04/17</small
+                        >
+                      </div>
+                    </div>
+                    <div class="row justify-content-end">
+                      <div class="col-4">67°</div>
+                      <div class="col-4 forecast">🌧</div>
+                      <hr />
+                    </div>
+                    <div class="row justify-content-start">
+                      <div class="col-4">
+                        <small
+                          >TUE <br />
+                          04/18</small
+                        >
+                      </div>
+                    </div>
+                    <div class="row justify-content-end">
+                      <div class="col-4">75°</div>
+                      <div class="col-4 forecast">🌦</div>
+                      <hr />
+                    </div>
+                    <div class="row justify-content-start">
+                      <div class="col-4">
+                        <small
+                          >WED <br />
+                          04/19</small
+                        >
+                      </div>
+                    </div>
+                    <div class="row justify-content-end">
+                      <div class="col-4">83°</div>
+                      <div class="col-4 forecast">🌥</div>
+                      <hr />
+                    </div>
+                    <div class="row justify-content-start">
+                      <div class="col-4">
+                        <small
+                          >THU <br />
+                          04/20</small
+                        >
+                      </div>
+                    </div>
+                    <div class="row justify-content-end">
+                      <div class="col-4">86°</div>
+                      <div class="col-4 forecast">🌤</div>
+                      <hr />
+                    </div>
+                    <div class="row justify-content-start">
+                      <div class="col-4">
+                        <small
+                          >FRI <br />
+                          04/21</small
+                        >
+                      </div>
+                    </div>
+                    <div class="row justify-content-end">
+                      <div class="col-4">82°</div>
+                      <div class="col-4 forecast">🌤</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+`;
+}
+
 function searchEngine(city) {
   let units = "metric";
   let apiKey = "8d9838178b5b401f1b4e7cb5af18e210";
@@ -59,6 +137,8 @@ function search(event) {
   let city = document.querySelector("#city-input").value;
   searchEngine(city);
 }
+
+displayForecast();
 
 let dateElement = document.querySelector("#date");
 let now = new Date();
