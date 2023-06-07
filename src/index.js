@@ -48,7 +48,7 @@ function showTemperature(response) {
 function displayForecast() {
   let forecastElement = document.querySelector("#forecast");
 
-  forecastElement.innerHTML = `            <div class="col-sm-6">
+  forecastElement.innerHTML = `
               <div class="card">
                 <div class="card-body">
                   <div class="container text-center">
@@ -119,7 +119,6 @@ function displayForecast() {
                   </div>
                 </div>
               </div>
-            </div>
 `;
 }
 
