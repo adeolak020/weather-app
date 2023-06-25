@@ -43,6 +43,7 @@ button {
 }
 
 .forecast {
+  display: inline-block;
   font-size: 28px;
 }
 
@@ -72,4 +73,18 @@ button {
 .celsius {
   font-size: 58px;
   font-weight: 500;
+}
+
+.tempForecast-max {
+  font-size: 16px;
+}
+
+.weather-forecast-min {
+  font-size: 16px;
+}
+
+.weather-cast {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
 }
