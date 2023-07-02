@@ -39,7 +39,7 @@ function displayForecast(response) {
   <div class="card-body">`;
 
   forecast.forEach(function (forecastDay, index) {
-    if (index < 6)
+    if (index < 5)
       forecastHTML =
         forecastHTML +
         `
