@@ -67,7 +67,7 @@ function displayForecast(response) {
                       }.png"
                         alt=""
                         width="42" /></div>
-                      ${index !== 5 ? "<hr />" : ""}
+                        ${index !== 4 ? "<hr />" : ""}
                     </div>
                     <div class="row justify-content-start">
                       <div class="col-4">
